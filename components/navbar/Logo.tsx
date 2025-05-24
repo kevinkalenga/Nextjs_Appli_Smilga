@@ -1,7 +1,14 @@
+import { LuTent } from "react-icons/lu";
+import Link from 'next/link';
+import {Button} from '../ui/button';
 
 function Logo() {
   return (
-    <div>Logo</div>
+    <Button size='icon' asChild>
+         <Link href='/'>
+            <LuTent className="w-6 h-6"/>
+         </Link>
+    </Button>
   )
 }
 
