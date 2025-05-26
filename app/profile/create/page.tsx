@@ -1,6 +1,6 @@
 
 
-import { Button } from '@/components/ui/button';
+
 
 
 const CreateProfileAction = async (formData: FormData) => {
@@ -19,9 +19,7 @@ function CreateProfilePage() {
             <form action={CreateProfileAction}>
                 
                     
-                 <Button type='submit' size='lg'>
-                     Create Profile
-                 </Button>
+                 
                  
             </form>
         </div>
